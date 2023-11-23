@@ -1,6 +1,6 @@
 {
   "name": "mybase10",
-  "version": "0.1.0",
+  "version": "0.1.1-Snapshot.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
