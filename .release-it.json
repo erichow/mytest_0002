@@ -1,27 +1,27 @@
 {
   "hooks": {},
   "git": {
-    "changelog": "git log --pretty=format:\"* %s (%h)\" ${from}...${to}",
-    "requireCleanWorkingDir": true,
-    "requireBranch": false,
-    "requireUpstream": true,
-    "requireCommits": false,
-    "requireCommitsFail": true,
-    "commitsPath": "",
-    "addUntrackedFiles": false,
+    // "changelog": "git log --pretty=format:\"* %s (%h)\" ${from}...${to}",
+    // "requireCleanWorkingDir": true,
+    // "requireBranch": false,
+    // "requireUpstream": true,
+    // "requireCommits": false,
+    // "requireCommitsFail": true,
+    // "commitsPath": "",
+    // "addUntrackedFiles": false,
     "commit": true,
     "commitMessage": "release: v${version}",
-    "commitArgs": [],
+    // "commitArgs": [],
     "tag": true,
-    "tagExclude": null,
-    "tagName": null,
-    "tagMatch": null,
-    "getLatestTagFromAllRefs": false,
-    "tagAnnotation": "Release ${version}",
-    "tagArgs": [],
+    // "tagExclude": null,
+    // "tagName": null,
+    // "tagMatch": null,
+    // "getLatestTagFromAllRefs": false,
+    // "tagAnnotation": "Release ${version}",
+    // "tagArgs": [],
     "push": true,
-    "pushArgs": ["--follow-tags"],
-    "pushRepo": ""
+    // "pushArgs": ["--follow-tags"],
+    // "pushRepo": ""
   },
   "npm": {
     "publish": true,
@@ -37,7 +37,7 @@
   },
   "github": {
     "release": false,
-    "releaseName": "Release ${version}",
+    "releaseName": "Release v${version}",
     "releaseNotes": null,
     "autoGenerate": false,
     "preRelease": false,
@@ -55,16 +55,16 @@
       "pr": ":rocket: _This pull request is included in v${version}. See [${releaseName}](${releaseUrl}) for release notes._"
     }
   },
-  "gitlab": {
-    "release": false,
-    "releaseName": "Release ${version}",
-    "releaseNotes": null,
-    "milestones": [],
-    "tokenRef": "GITLAB_TOKEN",
-    "tokenHeader": "Private-Token",
-    "certificateAuthorityFile": null,
-    "assets": null,
-    "origin": null,
-    "skipChecks": false
-  }
+  // "gitlab": {
+  //   "release": false,
+  //   "releaseName": "Release ${version}",
+  //   "releaseNotes": null,
+  //   "milestones": [],
+  //   "tokenRef": "GITLAB_TOKEN",
+  //   "tokenHeader": "Private-Token",
+  //   "certificateAuthorityFile": null,
+  //   "assets": null,
+  //   "origin": null,
+  //   "skipChecks": false
+  // }
 }
