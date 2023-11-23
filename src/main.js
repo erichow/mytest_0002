@@ -1,4 +1,4 @@
-import Vue from 'vue';
+import Vue from 'vue'
 import App from './App.vue'
 
 Vue.config.productionTip = false
@@ -8,4 +8,4 @@ new Vue({
 }).$mount('#app')
 
 const x = 0
-console.log(x);
+console.log(x)
