@@ -1,6 +1,6 @@
 {
-  "name": "mybase10",
-  "version": "0.1.1-Snapshot.0",
+  "name": "@hxdms/mytest_0002",
+  "version": "0.1.1-Snapshot.1",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
