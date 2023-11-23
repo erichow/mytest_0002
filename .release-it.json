@@ -19,7 +19,7 @@
     // "getLatestTagFromAllRefs": false,
     // "tagAnnotation": "Release ${version}",
     // "tagArgs": [],
-    "push": true,
+    "push": true
     // "pushArgs": ["--follow-tags"],
     // "pushRepo": ""
   },
@@ -54,7 +54,7 @@
       "issue": ":rocket: _This issue has been resolved in v${version}. See [${releaseName}](${releaseUrl}) for release notes._",
       "pr": ":rocket: _This pull request is included in v${version}. See [${releaseName}](${releaseUrl}) for release notes._"
     }
-  },
+  }
   // "gitlab": {
   //   "release": false,
   //   "releaseName": "Release ${version}",
